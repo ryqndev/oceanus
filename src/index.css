@@ -1,5 +1,22 @@
-body {
-  margin: 0;
-  min-width: 280px;
-  min-height: 100vh;
+body,
+#root {
+    font-family: "Lexend", sans-serif;
+    margin: 0;
+    min-width: 280px;
+    min-height: 100vh;
+
+    background-color: white;
+    color: #151515;
+    position: relative;
+    display: grid;
+}
+
+main {
+    padding-top: 80px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 100%;
 }
